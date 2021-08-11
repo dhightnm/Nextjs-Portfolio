@@ -1,6 +1,7 @@
 import Nav from './Nav'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from './Header'
 import styles from './layout.module.css'
 import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
@@ -12,8 +13,11 @@ export default function Layout({ children, home }) {
   return (
     <>
     <div className={styles.container}>
+    <Header />
       <Nav />
+      
       <header className={styles.header}>
+      
         {home ? (
           <>
             <Image
