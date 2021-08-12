@@ -2,7 +2,7 @@ import Nav from './Nav'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from './Header'
-import styles from './layout.module.css'
+import styles from '../../styles/layout.module.css'
 import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
 
